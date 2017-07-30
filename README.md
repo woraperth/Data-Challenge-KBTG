@@ -1,6 +1,13 @@
 # Data-Challenge-KBTG
 Data prediction challenges for Techjam Online Audition by KBTG
 
+## Challenges Description
+1. Predict NPL (Non-Performing Loan) from credit card information
+2. Merchant Prediction
+3. Churn Detection with Account’s Activities and Transactions
+4. Account Type Prediction from Deposit Transactions
+5. Gender Prediction from Credit Card Transactions
+
 ## Software used for creating model:
 - Jupyter Notebook in local machine
 - Jupyter Notebook in DataScientist Workbench
