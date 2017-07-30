@@ -17,7 +17,6 @@ Data prediction challenges for Techjam Online Audition by KBTG
 ### More notes about Q5:
 The transaction data is loaded in MySQL, then features are extracted with the following SQL:
 ```sql
-/* Feature 2
 SELECT DISTINCT(card_no),
 AVG(txn_amount) AS avg_txn,
 MAX(txn_amount) AS max_txn,
