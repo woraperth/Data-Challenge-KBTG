@@ -16,7 +16,7 @@ Data prediction challenges for Techjam Online Audition by KBTG
 
 ### More notes about Q5:
 The transaction data is loaded in MySQL, then features are extracted with the following SQL:
-`
+```sql
 /* Feature 2
 SELECT DISTINCT(card_no),
 AVG(txn_amount) AS avg_txn,
@@ -36,10 +36,11 @@ CASE
 FROM transactions t1
 WHERE txn_date = '2016-08-03'
 GROUP BY card_no
-`
+```
 and buy_men, buy_women, buy_cosmetic features are extracted in this fashion:
-`
+```sql
 SELECT DISTINCT(card_no),
 1 AS buy_men
 FROM transactions
 WHERE mer_cat_code IN ('5621', '5631')
+```
