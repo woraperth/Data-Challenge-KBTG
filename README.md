@@ -9,19 +9,19 @@ Data prediction challenges for Techjam Online Audition by KBTG
 5. Gender Prediction from Credit Card Transactions
 
 ## Software used for creating model:
-- Jupyter Notebook in local machine
-- Jupyter Notebook in DataScientist Workbench
+- Jupyter Notebook in local machine & DataScientist Workbench
 
 ## Programming Tools:
 - Python 3
 - Python Libraries: Pandas, Numpy, Scikit-learn, XGBoost
+- MySQL (for Q5)
 
 ## Model file:
-- For each question 1-5, there is 1 Jupyter Notebook file for the model named "Wrangling Q_"
+- For each question 1-5, there is 1 Jupyter Notebook file for the model named *Wrangling Q_*
 - Q1-4 used Scikit-learn 18 (in local machine)
 - Q5 used Scikit-learn 17 and XGBoost (in DataScientist Workbench)
 
-### More notes about Q5:
+### Note about Q5:
 The transaction data is loaded in MySQL, then features are extracted with the following SQL:
 ```sql
 SELECT DISTINCT(card_no),
