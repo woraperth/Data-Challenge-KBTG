@@ -1,6 +1,9 @@
 # Data-Challenge-KBTG
 Data prediction challenges for Techjam Online Audition by KBTG
 
+## Result
+Got into the [top 25](https://www.facebook.com/TechJamByKBTG/photos/a.1400510513372437.1073741829.1386124758144346/1442759955814159/?type=3&theater), but could not attend the final round due to the problem about travelling.
+
 ## Challenge Description:
 1. Predict NPL (Non-Performing Loan) from credit card information
 2. Merchant Prediction
